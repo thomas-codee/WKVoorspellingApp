@@ -1,0 +1,76 @@
+{
+  "name": "World Cup 2026",
+  "matches": [
+    {
+      "round": "Matchday 1",
+      "date": "2026-06-11",
+      "time": "16:00",
+      "team1": "Canada",
+      "team2": "Morocco",
+      "group": "Group A",
+      "ground": "BMO Field, Toronto"
+    },
+    {
+      "round": "Matchday 1",
+      "date": "2026-06-11",
+      "time": "19:00",
+      "team1": "Germany",
+      "team2": "United States",
+      "group": "Group B",
+      "ground": "MetLife Stadium, East Rutherford"
+    },
+    {
+      "round": "Matchday 2",
+      "date": "2026-06-15",
+      "time": "18:00",
+      "team1": "Mexico",
+      "team2": "Denmark",
+      "score": { "ft": [1, 0], "ht": [0, 0] },
+      "goals1": [
+        { "name": "Julian Alvarez", "minute": 52 }
+      ],
+      "group": "Group C",
+      "ground": "AT&T Stadium, Arlington"
+    },
+    {
+      "round": "Matchday 2",
+      "date": "2026-06-15",
+      "time": "20:00",
+      "team1": "France",
+      "team2": "New Zealand",
+      "score": { "ft": [3, 1], "ht": [2, 0] },
+      "goals1": [
+        { "name": "Kylian Mbappé", "minute": 15 },
+        { "name": "Ousmane Dembélé", "minute": 33 },
+        { "name": "Antoine Griezmann", "minute": 78 }
+      ],
+      "goals2": [
+        { "name": "Chris Wood", "minute": 65 }
+      ],
+      "group": "Group D",
+      "ground": "Commonwealth Stadium, Edmonton"
+    },
+    {
+      "round": "Matchday 3",
+      "date": "2026-06-20",
+      "time": "19:00",
+      "team1": "Brazil",
+      "team2": "Switzerland",
+      "score": { "ft": [1, 0], "ht": [1, 0] },
+      "goals1": [
+        { "name": "Vinícius Júnior", "minute": 42 }
+      ],
+      "group": "Group E",
+      "ground": "MetLife Stadium, East Rutherford"
+    },
+    {
+      "round": "Matchday 3",
+      "date": "2026-06-20",
+      "time": "19:00",
+      "team1": "Argentina",
+      "team2": "Poland",
+      "group": "Group F",
+      "ground": "Gillette Stadium, Foxborough"
+    }
+  ]
+}
