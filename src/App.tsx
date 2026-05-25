@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { ArrowRight, Trophy, User, ShieldCheck } from 'lucide-react';
 import dayjs from 'dayjs';
 import { supabase } from './lib/supabase';
@@ -71,6 +71,11 @@ function App() {
     [matches],
   );
 
+  const initialPredictionsRef = useRef(initialPredictions);
+  useEffect(() => { 
+    initialPredictionsRef.current = initialPredictions; 
+  }, [initialPredictions]);
+
   const [predictions, setPredictions] = useState<Prediction[]>(initialPredictions);
 
   const actualTopScorer = useMemo(() => getActualTopScorer(matches), [matches]);
@@ -112,71 +117,97 @@ function App() {
     feedback,
   };
 
-  const getSupabaseRestHeaders = () => {
-    const token = session?.access_token ?? '';
-    return {
-      apikey: import.meta.env.VITE_SUPABASE_ANON_KEY,
-      Authorization: token ? `Bearer ${token}` : '',
-      Accept: 'application/json',
-      'Content-Type': 'application/json',
-    };
-  };
+  // Safe data hydration helper called inside the load sequence
+  const hydrateProfileData = useCallback((data: any) => {
+    setProfile(data as UserProfile);
+    setPredictions((data.predictions as Prediction[]) ?? initialPredictionsRef.current);
 
-  const parseJsonSafe = async (response: Response) => {
-    const text = await response.text();
-    if (!text) return null;
-    try {
-      return JSON.parse(text);
-    } catch (error) {
-      return text;
+    const savedTopScorers = data.top_scorer;
+    if (Array.isArray(savedTopScorers)) {
+      setTopScorers(savedTopScorers.slice(0, 5).map((item) => String(item)));
+    } else if (savedTopScorers && typeof savedTopScorers === 'object' && 'player' in savedTopScorers) {
+      setTopScorers([String((savedTopScorers as any).player || ''), '', '', '', '']);
+    } else {
+      setTopScorers(['', '', '', '', '']);
     }
-  };
+  }, []);
 
-  const fetchProfileRow = async (userId: string) => {
-    const url = `${import.meta.env.VITE_SUPABASE_URL}/rest/v1/profiles?id=eq.${encodeURIComponent(userId)}`;
-    const response = await fetch(url, {
-      headers: getSupabaseRestHeaders(),
-    });
-    const json = await parseJsonSafe(response);
-    return { response, json };
-  };
+  // Isolated execution block to prevent effect re-trigger cycles
+  const executeProfileLoadSequence = useCallback(async (userId: string, userEmail?: string | null) => {
+    if (!userId) return;
+    setLoadProfileStatus('loading');
+    console.log(`Executing profile look-up sequence for: ${userId}`);
 
-  const insertProfileRow = async (payload: Record<string, unknown>) => {
-    const url = `${import.meta.env.VITE_SUPABASE_URL}/rest/v1/profiles`;
-    const response = await fetch(url, {
-      method: 'POST',
-      headers: getSupabaseRestHeaders(),
-      body: JSON.stringify(payload),
-    });
-    const json = await parseJsonSafe(response);
-    return { response, json };
-  };
+    try {
+      const { data, error } = await supabase
+        .from('profiles')
+        .select('*')
+        .eq('id', userId)
+        .maybeSingle();
 
-  const upsertProfileRow = async (payload: Record<string, unknown>) => {
-    const url = `${import.meta.env.VITE_SUPABASE_URL}/rest/v1/profiles?on_conflict=id`;
-    const headers = {
-      ...getSupabaseRestHeaders(),
-      Prefer: 'return=minimal,resolution=merge-duplicates',
-    };
-    console.log('upsertProfileRow url', url);
-    console.log('upsertProfileRow headers', headers);
-    const response = await fetch(url, {
-      method: 'POST',
-      headers,
-      body: JSON.stringify(payload),
-    });
-    const json = await parseJsonSafe(response);
-    console.log('upsertProfileRow response status', response.status, json);
-    return { response, json };
-  };
+      if (error) {
+        console.error('Database configuration or RLS error encountered:', error);
+        throw error;
+      }
 
+      if (data) {
+        console.log('Valid profile record found:', data);
+        hydrateProfileData(data);
+        setLoadProfileStatus('loaded');
+        setProfileLoaded(true);
+        return;
+      }
+
+      // If no profile exists, generate an initial row
+      console.log('No user row present. Generating new user profile row...');
+      setLoadProfileStatus('creating');
+      
+      const payload = {
+        id: userId,
+        email: userEmail ?? null,
+        full_name: null,
+        avatar_url: null,
+        has_completed_setup: false,
+        predictions: initialPredictionsRef.current,
+        top_scorer: ['', '', '', '', ''],
+        points: 0,
+      };
+
+      const { data: newProfile, error: insertError } = await supabase
+        .from('profiles')
+        .insert(payload)
+        .select()
+        .single();
+
+      if (insertError) {
+        console.error('Profile insertion rejected by database:', insertError);
+        throw insertError;
+      }
+
+      console.log('New profile successfully built:', newProfile);
+      hydrateProfileData(newProfile);
+      setLoadProfileStatus('created');
+    } catch (err) {
+      console.error('Profile execution sequence encountered a failure. Initializing sandbox fallback:', err);
+      // Fallback state hydration prevents user lock-out if network issues persist
+      setProfile({ id: userId, full_name: 'Local Sandbox User', avatar_url: null, has_completed_setup: false });
+      setPredictions(initialPredictionsRef.current);
+      setTopScorers(['', '', '', '', '']);
+      setLoadProfileStatus('fallback-active');
+    } finally {
+      setProfileLoaded(true);
+    }
+  }, [hydrateProfileData]);
+
+  // Syncing layout states if an uncompleted profile gets loaded
   useEffect(() => {
     if (!profile) return;
     if (!profile.has_completed_setup) {
-      setPredictions(initialPredictions);
+      setPredictions(initialPredictionsRef.current);
     }
-  }, [initialPredictions, profile]);
+  }, [profile]);
 
+  // Load matches metadata configurations
   useEffect(() => {
     const fetchLiveSchedule = async () => {
       try {
@@ -184,7 +215,6 @@ function App() {
         if (!response.ok) {
           throw new Error(`Schedule request failed with ${response.status}`);
         }
-
         const json = (await response.json()) as WorldCupData;
         setWorldcupData(json);
         setDataError(null);
@@ -193,148 +223,83 @@ function App() {
         setDataError('Live World Cup schedule unavailable. Using local fallback data.');
       }
     };
-
     fetchLiveSchedule();
   }, []);
 
+  // Main application authentication listener hook
   useEffect(() => {
-    const initSession = async () => {
-      try {
-        const {
-          data: { session: activeSession },
-        } = await supabase.auth.getSession();
-        setSession(activeSession);
+    let isMounted = true;
 
+    const synchronizeAuthUser = async () => {
+      try {
+        const { data: { session: activeSession } } = await supabase.auth.getSession();
+        if (!isMounted) return;
+
+        setSession(activeSession);
         if (activeSession?.user?.id) {
-          try {
-            await loadProfile(activeSession.user.id);
-          } catch (error) {
-            console.error('Failed to load profile:', error);
-            setProfileLoaded(true);
-          }
+          await executeProfileLoadSequence(activeSession.user.id, activeSession.user.email);
         } else {
           setProfileLoaded(true);
         }
-      } catch (error) {
-        console.error('Failed to get auth session:', error);
-        setSession(null);
-        setProfileLoaded(true);
+      } catch (err) {
+        console.error('Auth synchronization failure:', err);
+        if (isMounted) setProfileLoaded(true);
       }
     };
 
-    initSession();
-    const { data: listener } = supabase.auth.onAuthStateChange(async (_, newSession) => {
-      setSession(newSession);
-      if (newSession?.user?.id) {
-        setProfileLoaded(false);
-        try {
-          await loadProfile(newSession.user.id);
-        } catch (error) {
-          console.error('Failed to load profile on auth change:', error);
-          setProfileLoaded(true);
-        }
+    synchronizeAuthUser();
+
+    const { data: listener } = supabase.auth.onAuthStateChange(async (event, currentSession) => {
+      console.log(`Supabase Auth event state changed: ${event}`);
+      if (!isMounted) return;
+
+      setSession(currentSession);
+      if (currentSession?.user?.id) {
+        await executeProfileLoadSequence(currentSession.user.id, currentSession.user.email);
       } else {
         setProfile(null);
-        setPredictions(initialPredictions);
+        setPredictions(initialPredictionsRef.current);
+        setTopScorers(['', '', '', '', '']);
         setProfileLoaded(true);
       }
     });
 
-    return () => listener.subscription.unsubscribe();
-  }, [initialPredictions]);
-
-  useEffect(() => {
-    if (!session || profileLoaded) return;
-    const fallbackTimer = window.setTimeout(() => {
-      console.warn('Profile load fallback triggered: forcing profileLoaded to true');
-      if (!profile && session?.user?.id) {
-        setProfile({ id: session.user.id, full_name: null, avatar_url: null, has_completed_setup: false });
-        setPredictions(initialPredictions);
-        setTopScorers(['', '', '', '', '']);
-      }
-      setProfileLoaded(true);
-    }, 8000);
-
-    return () => window.clearTimeout(fallbackTimer);
-  }, [session, profileLoaded, profile, initialPredictions]);
-
-  const createInitialProfile = async (userId: string) => {
-    setLoadProfileStatus('creating');
-    const payload = {
-      id: userId,
-      email: session?.user?.email ?? null,
-      full_name: null,
-      avatar_url: null,
-      has_completed_setup: false,
-      predictions: initialPredictions,
-      top_scorer: ['', '', '', '', ''],
-      points: 0,
+    return () => {
+      isMounted = false;
+      listener.subscription.unsubscribe();
     };
-
-    const { response, json } = await insertProfileRow(payload);
-    if (!response.ok) {
-      console.error('Unable to create initial profile row:', response.status, json);
-      setLoadProfileStatus('create-error');
-      setProfile({ id: userId, full_name: null, avatar_url: null, has_completed_setup: false });
-      setPredictions(initialPredictions);
-      setTopScorers(['', '', '', '', '']);
-      setProfileLoaded(true);
-      return;
-    }
-
-    setLoadProfileStatus('created');
-    setProfile(payload as UserProfile);
-    setPredictions(initialPredictions);
-    setTopScorers(['', '', '', '', '']);
-    setProfileLoaded(true);
-  };
-
-  const loadProfile = async (userId: string) => {
-    setLoadProfileStatus('loading');
-    const { response, json } = await fetchProfileRow(userId);
-    if (!response.ok) {
-      console.error('Supabase profile query failure:', response.status, json);
-      await createInitialProfile(userId);
-      return;
-    }
-
-    if (!json || (Array.isArray(json) && json.length === 0)) {
-      await createInitialProfile(userId);
-      return;
-    }
-
-    const data = Array.isArray(json) ? json[0] : json;
-    setLoadProfileStatus('loaded');
-    setProfile(data as UserProfile);
-    setPredictions((data.predictions as Prediction[]) ?? initialPredictions);
-
-    const savedTopScorers = data.top_scorer;
-    if (Array.isArray(savedTopScorers)) {
-      setTopScorers(savedTopScorers.slice(0, 5).map((item) => String(item)));
-    } else if (savedTopScorers && typeof savedTopScorers === 'object' && 'player' in savedTopScorers) {
-      setTopScorers([savedTopScorers.player || '', '', '', '', '']);
-    } else {
-      setTopScorers(['', '', '', '', '']);
-    }
-    setProfileLoaded(true);
-  };
+  }, [executeProfileLoadSequence]);
 
   const signInWithPassword = async () => {
     setMagicLinkMessage('Bezig met inloggen...');
-    const { error } = await supabase.auth.signInWithPassword({ email: userEmail, password: userPassword });
+    setProfileLoaded(false);
+    const { data, error } = await supabase.auth.signInWithPassword({ email: userEmail, password: userPassword });
     if (error) {
       setMagicLinkMessage(`Fout: ${error.message}`);
+      setProfileLoaded(true);
       return;
+    }
+    if (data?.session?.user?.id) {
+      await executeProfileLoadSequence(data.session.user.id, data.session.user.email);
+    } else {
+      setProfileLoaded(true);
     }
     setMagicLinkMessage('Inloggen gelukt.');
   };
 
   const signUpWithEmail = async () => {
     setMagicLinkMessage('Account aanmaken...');
-    const { error } = await supabase.auth.signUp({ email: userEmail, password: userPassword });
+    setProfileLoaded(false);
+    const { data, error } = await supabase.auth.signUp({ email: userEmail, password: userPassword });
     if (error) {
       setMagicLinkMessage(`Fout: ${error.message}`);
+      setProfileLoaded(true);
       return;
+    }
+    if (data?.user?.id) {
+      await executeProfileLoadSequence(data.user.id, data.user.email);
+    } else {
+      setProfileLoaded(true);
     }
     setMagicLinkMessage('Account aangemaakt. Controleer je e-mail als bevestiging nodig is.');
   };
@@ -356,11 +321,13 @@ function App() {
   };
 
   const signOut = async () => {
+    setProfileLoaded(false);
     await supabase.auth.signOut();
     setProfile(null);
     setSession(null);
     setPredictions(initialPredictions);
-    setProfileLoaded(false);
+    setTopScorers(['', '', '', '', '']);
+    setProfileLoaded(true);
   };
 
   const updatePrediction = (matchId: string, team: 'score1' | 'score2', value: number | null) => {
@@ -373,7 +340,7 @@ function App() {
 
   const getMatchStartTime = (match: Match) => {
     const matchTime = match.time?.trim() || '00:00';
-    return dayjs(`${match.date} ${matchTime}`);
+    return dayjs(`${match.date} ${matchTime}`, 'YYYY-MM-DD HH:mm', true);
   };
 
   const getStageKey = (match: Match) => {
@@ -404,8 +371,7 @@ function App() {
   }, [matches]);
 
   const canEditMatch = (match: Match) => {
-    const stageKey = getStageKey(match);
-    const cutoff = getStageCutoff[stageKey] ?? getMatchStartTime(match);
+    const cutoff = getMatchStartTime(match);
     return dayjs().isBefore(cutoff);
   };
 
@@ -430,18 +396,19 @@ function App() {
       points: currentPoints,
     };
 
-    console.log('saveSetup payload', payload);
-    console.log('saveSetup session', session);
-
     try {
-      const { response, json } = await upsertProfileRow(payload);
-      if (!response.ok) {
-        console.error('Unable to save profile setup:', response.status, json);
-        throw new Error(`Request failed with status ${response.status}`);
+      const { data, error } = await supabase.from('profiles').upsert(payload, { onConflict: 'id' }).select().single();
+      if (error) {
+        console.error('Unable to save profile setup:', error);
+        throw error;
       }
 
       setSaveStatus('success');
-      setProfile((current) => (current ? { ...current, ...payload } : payload as UserProfile));
+      if (data) {
+        setProfile(data as UserProfile);
+      } else {
+        setProfile((current) => (current ? { ...current, ...payload } : payload as UserProfile));
+      }
       setFeedback('Opgeslagen! Je Belisinator-dashboard is bijgewerkt.');
     } catch (error) {
       console.error('Unable to save profile setup:', error);
