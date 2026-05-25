@@ -83,9 +83,55 @@ function App() {
     return () => clearTimeout(backupUnlockTimer);
   }, [profileLoaded, profile]);
 
+  // Helper inside component context to process dates reliably across desktop & mobile Safari
+  const getMatchStartTime = (match: Match) => {
+    const matchTime = match.time?.trim() || '00:00';
+    return dayjs(`${match.date} ${matchTime}`, 'YYYY-MM-DD HH:mm');
+  };
+
   const matches = useMemo(() => {
     try {
-      return worldcupData.matches.map((match, index) => ({ ...match, id: buildMatchId(match, index) }));
+      // 1. Map base matches with cross-platform compatible DayJS instances
+      const baseMatches = worldcupData.matches.map((match, index) => ({
+        ...match,
+        id: buildMatchId(match, index),
+        startDayjs: getMatchStartTime(match)
+      }));
+
+      // 2. Tally structures to extract earliest game timestamp
+      const groupDeadlines: Record<string, dayjs.Dayjs> = {};
+      const roundDeadlines: Record<string, dayjs.Dayjs> = {};
+
+      baseMatches.forEach((m) => {
+        if (m.group) {
+          if (!groupDeadlines[m.group] || m.startDayjs.isBefore(groupDeadlines[m.group])) {
+            groupDeadlines[m.group] = m.startDayjs;
+          }
+        }
+        if (m.round) {
+          if (!roundDeadlines[m.round] || m.startDayjs.isBefore(roundDeadlines[m.round])) {
+            roundDeadlines[m.round] = m.startDayjs;
+          }
+        }
+      });
+
+      // 3. Bind correct dynamic cutoff properties to individual structural instances
+      return baseMatches.map((m) => {
+        let cutoff = m.startDayjs;
+
+        if (m.group) {
+          // Group structural validation -> lock from first game of group
+          cutoff = groupDeadlines[m.group];
+        } else if (m.round) {
+          // Playoff structural validation -> lock from first game of phase
+          cutoff = roundDeadlines[m.round];
+        }
+
+        return {
+          ...m,
+          cutoffDayjs: cutoff
+        };
+      });
     } catch (e) {
       console.error('STAGE 1B: Error parsing matches array metadata:', e);
       return [];
@@ -366,14 +412,12 @@ function App() {
     );
   };
 
-  const getMatchStartTime = (match: Match) => {
-    const matchTime = match.time?.trim() || '00:00';
-    return dayjs(`${match.date} ${matchTime}`, 'YYYY-MM-DD HH:mm', true);
-  };
-
-  const canEditMatch = (match: Match) => {
-    const cutoff = getMatchStartTime(match);
-    return dayjs().isBefore(cutoff);
+  // Fixed validator targeting compiled custom group/phase cutoff instances
+  const canEditMatch = (match: Match & { cutoffDayjs?: dayjs.Dayjs }) => {
+    if (!match.cutoffDayjs || !match.cutoffDayjs.isValid()) {
+      return true; 
+    }
+    return dayjs().isBefore(match.cutoffDayjs);
   };
 
   const saveSetup = async () => {
@@ -425,9 +469,10 @@ function App() {
     />
   );
 
-  const renderMatchCard = (match: Match & { id: string }) => {
+  const renderMatchCard = (match: Match & { id: string; cutoffDayjs?: dayjs.Dayjs }) => {
     const prediction = predictions.find((item) => item.matchId === match.id);
     const resultLabel = match.score ? `${match.score.ft[0]} - ${match.score.ft[1]}` : 'Open';
+    const editable = canEditMatch(match);
 
     return (
       <article key={match.id} className="rounded-3xl border border-white/5 bg-white/5 p-4 shadow-glass backdrop-blur-xl">
@@ -443,10 +488,10 @@ function App() {
         </div>
         <div className="mt-4 grid gap-3 sm:grid-cols-[auto_1fr] sm:items-center">
           <div className="grid grid-cols-2 gap-2 justify-center">
-            {renderScoreInput(match.id, 'score1', prediction?.score1 ?? null, !canEditMatch(match))}
-            {renderScoreInput(match.id, 'score2', prediction?.score2 ?? null, !canEditMatch(match))}
+            {renderScoreInput(match.id, 'score1', prediction?.score1 ?? null, !editable)}
+            {renderScoreInput(match.id, 'score2', prediction?.score2 ?? null, !editable)}
           </div>
-          {!canEditMatch(match) ? (
+          {!editable ? (
             <div className="rounded-3xl bg-slate-900/80 px-4 py-3 text-sm font-semibold text-orange-300">
               Locked
             </div>
