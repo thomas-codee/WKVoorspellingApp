@@ -1,9 +1,14 @@
 {
   "tournament": "FIFA World Cup 2026",
   "source": "https://en.wikipedia.org/wiki/2026_FIFA_World_Cup_squads",
-  "teams_count": 37,
-  "players_count": 1142,
+  "teams_count": 48,
+  "players_count": 1282,
   "teams": [
+    {
+      "team": "Algeria",
+      "coach": "Vladimir Petković",
+      "players": []
+    },
     {
       "team": "Argentina",
       "coach": "Lionel Scaloni",
@@ -432,7 +437,7 @@
           "number": 4,
           "position_code": "FW",
           "position": "Forward",
-          "name": "Lionel Messi ( captain )",
+          "name": "Lionel Messi",
           "date_of_birth": "1987-06-24",
           "age": 38,
           "caps": 198,
@@ -561,6 +566,11 @@
       ]
     },
     {
+      "team": "Australia",
+      "coach": "Tony Popovic",
+      "players": []
+    },
+    {
       "team": "Austria",
       "coach": "Ralf Rangnick",
       "players": [
@@ -638,7 +648,7 @@
           "number": 8,
           "position_code": "DF",
           "position": "Defender",
-          "name": "David Alaba ( captain )",
+          "name": "David Alaba",
           "date_of_birth": "1992-06-24",
           "age": 33,
           "caps": 112,
@@ -974,7 +984,7 @@
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Youri Tielemans ( captain )",
+          "name": "Youri Tielemans",
           "date_of_birth": "1997-05-07",
           "age": 29,
           "caps": 83,
@@ -1310,7 +1320,7 @@
           "number": 4,
           "position_code": "FW",
           "position": "Forward",
-          "name": "Edin Džeko ( captain )",
+          "name": "Edin Džeko",
           "date_of_birth": "1986-03-17",
           "age": 40,
           "caps": 148,
@@ -1486,7 +1496,7 @@
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Casemiro ( captain )",
+          "name": "Casemiro",
           "date_of_birth": "1992-02-23",
           "age": 34,
           "caps": 84,
@@ -1621,6 +1631,332 @@
           "age": 19,
           "caps": 1,
           "club": "Bournemouth"
+        }
+      ]
+    },
+    {
+      "team": "Canada",
+      "coach": "Jesse Marsch",
+      "players": [
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Maxime Crépeau",
+          "date_of_birth": "1994-04-11",
+          "age": 32,
+          "caps": 30,
+          "club": "Orlando City SC"
+        },
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Dayne St. Clair",
+          "date_of_birth": "1997-05-09",
+          "age": 29,
+          "caps": 19,
+          "club": "Inter Miami CF"
+        },
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Owen Goodman",
+          "date_of_birth": "2003-11-27",
+          "age": 22,
+          "caps": 0,
+          "club": "Barnsley"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Richie Laryea",
+          "date_of_birth": "1995-01-07",
+          "age": 31,
+          "caps": 73,
+          "club": "Toronto FC"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Alphonso Davies",
+          "date_of_birth": "2000-11-02",
+          "age": 25,
+          "caps": 58,
+          "club": "Bayern Munich"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Alistair Johnston",
+          "date_of_birth": "1998-10-08",
+          "age": 27,
+          "caps": 56,
+          "club": "Celtic"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Derek Cornelius",
+          "date_of_birth": "1997-11-25",
+          "age": 28,
+          "caps": 42,
+          "club": "Rangers"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Moïse Bombito",
+          "date_of_birth": "2000-03-30",
+          "age": 26,
+          "caps": 19,
+          "club": "Nice"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Niko Sigur",
+          "date_of_birth": "2003-09-09",
+          "age": 22,
+          "caps": 17,
+          "club": "Hajduk Split"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Joel Waterman",
+          "date_of_birth": "1996-01-24",
+          "age": 30,
+          "caps": 17,
+          "club": "Chicago Fire"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Luc de Fougerolles",
+          "date_of_birth": "2005-10-12",
+          "age": 20,
+          "caps": 11,
+          "club": "Dender"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Zorhan Bassong",
+          "date_of_birth": "1999-05-07",
+          "age": 27,
+          "caps": 7,
+          "club": "Sporting Kansas City"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Jamie Knight-Lebel",
+          "date_of_birth": "2004-12-24",
+          "age": 21,
+          "caps": 3,
+          "club": "Swindon Town"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Ralph Priso",
+          "date_of_birth": "2002-08-02",
+          "age": 23,
+          "caps": 2,
+          "club": "Vancouver Whitecaps FC"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Alfie Jones",
+          "date_of_birth": "1997-10-07",
+          "age": 28,
+          "caps": 1,
+          "club": "Middlesbrough"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Jonathan Osorio",
+          "date_of_birth": "1992-06-12",
+          "age": 33,
+          "caps": 89,
+          "club": "Toronto FC"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Tajon Buchanan",
+          "date_of_birth": "1999-02-08",
+          "age": 27,
+          "caps": 58,
+          "club": "Villarreal"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Stephen Eustáquio",
+          "date_of_birth": "1996-12-21",
+          "age": 29,
+          "caps": 54,
+          "club": "Los Angeles FC"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Liam Millar",
+          "date_of_birth": "1999-09-27",
+          "age": 26,
+          "caps": 39,
+          "club": "Hull City"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Ismaël Koné",
+          "date_of_birth": "2002-06-16",
+          "age": 23,
+          "caps": 38,
+          "club": "Sassuolo"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Jacob Shaffelburg",
+          "date_of_birth": "1999-11-26",
+          "age": 26,
+          "caps": 31,
+          "club": "Los Angeles FC"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Ali Ahmed",
+          "date_of_birth": "2000-10-10",
+          "age": 25,
+          "caps": 24,
+          "club": "Norwich City"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Mathieu Choinière",
+          "date_of_birth": "1999-02-07",
+          "age": 27,
+          "caps": 22,
+          "club": "Los Angeles FC"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Nathan Saliba",
+          "date_of_birth": "2004-02-07",
+          "age": 22,
+          "caps": 13,
+          "club": "Anderlecht"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Jayden Nelson",
+          "date_of_birth": "2002-09-26",
+          "age": 23,
+          "caps": 12,
+          "club": "Austin FC"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Marcelo Flores",
+          "date_of_birth": "2003-10-01",
+          "age": 22,
+          "caps": 2,
+          "club": "UANL"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Cyle Larin",
+          "date_of_birth": "1995-04-17",
+          "age": 31,
+          "caps": 88,
+          "club": "Southampton"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Jonathan David",
+          "date_of_birth": "2000-01-14",
+          "age": 26,
+          "caps": 75,
+          "club": "Juventus"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Tani Oluwaseyi",
+          "date_of_birth": "2000-05-15",
+          "age": 26,
+          "caps": 22,
+          "club": "Villarreal"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Promise David",
+          "date_of_birth": "2001-07-03",
+          "age": 24,
+          "caps": 8,
+          "club": "Union Saint-Gilloise"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Jacen Russell-Rowe",
+          "date_of_birth": "2002-09-13",
+          "age": 23,
+          "caps": 8,
+          "club": "Toulouse"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Daniel Jebbison",
+          "date_of_birth": "2003-07-11",
+          "age": 22,
+          "caps": 7,
+          "club": "Preston North End"
         }
       ]
     },
@@ -1812,7 +2148,7 @@
           "number": 4,
           "position_code": "FW",
           "position": "Forward",
-          "name": "Ryan Mendes ( captain )",
+          "name": "Ryan Mendes",
           "date_of_birth": "1990-01-08",
           "age": 36,
           "caps": 94,
@@ -1925,36 +2261,6 @@
           "club": "Vélez Sarsfield"
         },
         {
-          "number": 1,
-          "position_code": "GK",
-          "position": "Goalkeeper",
-          "name": "Kevin Mier",
-          "date_of_birth": "2000-05-18",
-          "age": 26,
-          "caps": 3,
-          "club": "Cruz Azul"
-        },
-        {
-          "number": 1,
-          "position_code": "GK",
-          "position": "Goalkeeper",
-          "name": "Andrés Mosquera",
-          "date_of_birth": "1991-09-10",
-          "age": 34,
-          "caps": 1,
-          "club": "Independiente Santa Fe"
-        },
-        {
-          "number": 1,
-          "position_code": "GK",
-          "position": "Goalkeeper",
-          "name": "Aldair Quintana",
-          "date_of_birth": "1994-07-11",
-          "age": 31,
-          "caps": 0,
-          "club": "Independiente del Valle"
-        },
-        {
           "number": 2,
           "position_code": "DF",
           "position": "Defender",
@@ -2018,61 +2324,11 @@
           "number": 2,
           "position_code": "DF",
           "position": "Defender",
-          "name": "Carlos Cuesta",
-          "date_of_birth": "1999-03-09",
-          "age": 27,
-          "caps": 24,
-          "club": "Vasco da Gama"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
           "name": "Deiver Machado",
           "date_of_birth": "1993-09-02",
           "age": 32,
           "caps": 14,
           "club": "Nantes"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Cristian Borja",
-          "date_of_birth": "1993-02-18",
-          "age": 33,
-          "caps": 8,
-          "club": "América"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Yerson Mosquera",
-          "date_of_birth": "2001-05-02",
-          "age": 25,
-          "caps": 4,
-          "club": "Wolverhampton Wanderers"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Álvaro Angulo",
-          "date_of_birth": "1998-03-06",
-          "age": 28,
-          "caps": 4,
-          "club": "UNAM"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Juan Cabal",
-          "date_of_birth": "2001-01-08",
-          "age": 25,
-          "caps": 3,
-          "club": "Juventus"
         },
         {
           "number": 2,
@@ -2085,64 +2341,14 @@
           "club": "Cruz Azul"
         },
         {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Andrés Román",
-          "date_of_birth": "1995-10-05",
-          "age": 30,
-          "caps": 3,
-          "club": "Atlético Nacional"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Junior Hernández",
-          "date_of_birth": "1999-04-05",
-          "age": 27,
-          "caps": 0,
-          "club": "Deportes Tolima"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Édier Ocampo",
-          "date_of_birth": "2003-03-10",
-          "age": 23,
-          "caps": 0,
-          "club": "Vancouver Whitecaps FC"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Jhohan Romaña",
-          "date_of_birth": "1998-09-13",
-          "age": 27,
-          "caps": 0,
-          "club": "San Lorenzo"
-        },
-        {
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "James Rodríguez ( captain )",
+          "name": "James Rodríguez",
           "date_of_birth": "1991-07-12",
           "age": 34,
           "caps": 124,
           "club": "Minnesota United FC"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Juan Cuadrado",
-          "date_of_birth": "1988-05-26",
-          "age": 38,
-          "caps": 116,
-          "club": "Pisa"
         },
         {
           "number": 3,
@@ -2153,16 +2359,6 @@
           "age": 31,
           "caps": 64,
           "club": "Crystal Palace"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Wilmar Barrios",
-          "date_of_birth": "1993-10-16",
-          "age": 32,
-          "caps": 55,
-          "club": "Zenit Saint Petersburg"
         },
         {
           "number": 3,
@@ -2218,16 +2414,6 @@
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Yáser Asprilla",
-          "date_of_birth": "2003-11-19",
-          "age": 22,
-          "caps": 11,
-          "club": "Galatasaray"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
           "name": "Jaminton Campaz",
           "date_of_birth": "2000-05-24",
           "age": 26,
@@ -2255,66 +2441,6 @@
           "club": "Racing Santander"
         },
         {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Sebastián Gómez",
-          "date_of_birth": "1996-06-03",
-          "age": 30,
-          "caps": 2,
-          "club": "Coritiba"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Jordan Barrera",
-          "date_of_birth": "2006-04-11",
-          "age": 20,
-          "caps": 0,
-          "club": "Botafogo"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Nelson Deossa",
-          "date_of_birth": "2000-02-06",
-          "age": 26,
-          "caps": 0,
-          "club": "Real Betis"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Juan Manuel Rengifo",
-          "date_of_birth": "2005-04-02",
-          "age": 21,
-          "caps": 0,
-          "club": "Atlético Nacional"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Johan Rojas",
-          "date_of_birth": "2002-09-20",
-          "age": 23,
-          "caps": 0,
-          "club": "Vasco da Gama"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Jhon Solís",
-          "date_of_birth": "2004-10-03",
-          "age": 21,
-          "caps": 0,
-          "club": "Birmingham City"
-        },
-        {
           "number": 4,
           "position_code": "FW",
           "position": "Forward",
@@ -2328,31 +2454,11 @@
           "number": 4,
           "position_code": "FW",
           "position": "Forward",
-          "name": "Rafael Santos Borré",
-          "date_of_birth": "1995-09-15",
-          "age": 30,
-          "caps": 44,
-          "club": "Internacional"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
           "name": "Jhon Córdoba",
           "date_of_birth": "1993-05-11",
           "age": 33,
           "caps": 21,
           "club": "Krasnodar"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Jhon Durán",
-          "date_of_birth": "2003-12-13",
-          "age": 22,
-          "caps": 17,
-          "club": "Zenit Saint Petersburg"
         },
         {
           "number": 4,
@@ -2383,66 +2489,6 @@
           "age": 23,
           "caps": 6,
           "club": "Vasco da Gama"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Sebastián Villa",
-          "date_of_birth": "1996-05-19",
-          "age": 30,
-          "caps": 4,
-          "club": "Independiente Rivadavia"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Johan Carbonero",
-          "date_of_birth": "1999-07-20",
-          "age": 26,
-          "caps": 2,
-          "club": "Internacional"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Stiven Mendoza",
-          "date_of_birth": "1992-06-27",
-          "age": 33,
-          "caps": 2,
-          "club": "Athletico Paranaense"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Edwuin Cetré",
-          "date_of_birth": "1998-01-01",
-          "age": 28,
-          "caps": 0,
-          "club": "Estudiantes"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Néiser Villarreal",
-          "date_of_birth": "2005-04-24",
-          "age": 21,
-          "caps": 0,
-          "club": "Cruzeiro"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Kevin Viveros",
-          "date_of_birth": "2000-04-26",
-          "age": 26,
-          "caps": 0,
-          "club": "Athletico Paranaense"
         }
       ]
     },
@@ -2554,7 +2600,7 @@
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Luka Modrić ( captain )",
+          "name": "Luka Modrić",
           "date_of_birth": "1985-09-09",
           "age": 40,
           "caps": 196,
@@ -2830,7 +2876,7 @@
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Leandro Bacuna ( captain )",
+          "name": "Leandro Bacuna",
           "date_of_birth": "1991-08-21",
           "age": 34,
           "caps": 70,
@@ -3036,7 +3082,7 @@
           "number": 2,
           "position_code": "DF",
           "position": "Defender",
-          "name": "Ladislav Krejčí ( captain )",
+          "name": "Ladislav Krejčí",
           "date_of_birth": "1999-04-20",
           "age": 27,
           "caps": 25,
@@ -3312,7 +3358,7 @@
           "number": 2,
           "position_code": "DF",
           "position": "Defender",
-          "name": "Chancel Mbemba ( captain )",
+          "name": "Chancel Mbemba",
           "date_of_birth": "1994-08-08",
           "age": 31,
           "caps": 107,
@@ -3389,16 +3435,6 @@
           "club": "Widzew Łódź"
         },
         {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Meschak Elia",
-          "date_of_birth": "1997-08-06",
-          "age": 28,
-          "caps": 68,
-          "club": "Alanyaspor"
-        },
-        {
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
@@ -3449,16 +3485,6 @@
           "club": "Sunderland"
         },
         {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Nathanaël Mbuku",
-          "date_of_birth": "2002-03-16",
-          "age": 24,
-          "caps": 17,
-          "club": "Montpellier"
-        },
-        {
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
@@ -3502,6 +3528,16 @@
           "number": 4,
           "position_code": "FW",
           "position": "Forward",
+          "name": "Meschak Elia",
+          "date_of_birth": "1997-08-06",
+          "age": 28,
+          "caps": 68,
+          "club": "Alanyaspor"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
           "name": "Théo Bongonda",
           "date_of_birth": "1995-11-20",
           "age": 30,
@@ -3532,6 +3568,16 @@
           "number": 4,
           "position_code": "FW",
           "position": "Forward",
+          "name": "Nathanaël Mbuku",
+          "date_of_birth": "2002-03-16",
+          "age": 24,
+          "caps": 17,
+          "club": "Montpellier"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
           "name": "Simon Banza",
           "date_of_birth": "1996-08-13",
           "age": 29,
@@ -3539,6 +3585,11 @@
           "club": "Al Jazira"
         }
       ]
+    },
+    {
+      "team": "Ecuador",
+      "coach": "Sebastián Beccacece",
+      "players": []
     },
     {
       "team": "Egypt",
@@ -3738,7 +3789,7 @@
           "number": 4,
           "position_code": "FW",
           "position": "Forward",
-          "name": "Mohamed Salah ( captain )",
+          "name": "Mohamed Salah",
           "date_of_birth": "1992-06-15",
           "age": 33,
           "caps": 116,
@@ -3749,8 +3800,8 @@
           "position_code": "FW",
           "position": "Forward",
           "name": "Trézéguet",
-          "date_of_birth": "1996-10-01",
-          "age": 29,
+          "date_of_birth": "1994-10-01",
+          "age": 31,
           "caps": 94,
           "club": "Al Ahly"
         },
@@ -3831,7 +3882,7 @@
           "club": "Everton"
         },
         {
-          "number": 13,
+          "number": 1,
           "position_code": "GK",
           "position": "Goalkeeper",
           "name": "Dean Henderson",
@@ -3841,7 +3892,7 @@
           "club": "Crystal Palace"
         },
         {
-          "number": 22,
+          "number": 1,
           "position_code": "GK",
           "position": "Goalkeeper",
           "name": "James Trafford",
@@ -3851,7 +3902,7 @@
           "club": "Manchester City"
         },
         {
-          "number": 5,
+          "number": 2,
           "position_code": "DF",
           "position": "Defender",
           "name": "John Stones",
@@ -3861,7 +3912,7 @@
           "club": "Manchester City"
         },
         {
-          "number": 6,
+          "number": 2,
           "position_code": "DF",
           "position": "Defender",
           "name": "Marc Guéhi",
@@ -3881,7 +3932,7 @@
           "club": "Chelsea"
         },
         {
-          "number": 14,
+          "number": 2,
           "position_code": "DF",
           "position": "Defender",
           "name": "Ezri Konsa",
@@ -3891,7 +3942,7 @@
           "club": "Aston Villa"
         },
         {
-          "number": 12,
+          "number": 2,
           "position_code": "DF",
           "position": "Defender",
           "name": "Dan Burn",
@@ -3901,7 +3952,7 @@
           "club": "Newcastle United"
         },
         {
-          "number": 21,
+          "number": 2,
           "position_code": "DF",
           "position": "Defender",
           "name": "Tino Livramento",
@@ -3911,7 +3962,7 @@
           "club": "Newcastle United"
         },
         {
-          "number": 24,
+          "number": 2,
           "position_code": "DF",
           "position": "Defender",
           "name": "Djed Spence",
@@ -3921,7 +3972,7 @@
           "club": "Tottenham Hotspur"
         },
         {
-          "number": 3,
+          "number": 2,
           "position_code": "DF",
           "position": "Defender",
           "name": "Nico O'Reilly",
@@ -3931,7 +3982,7 @@
           "club": "Manchester City"
         },
         {
-          "number": 25,
+          "number": 2,
           "position_code": "DF",
           "position": "Defender",
           "name": "Jarell Quansah",
@@ -3941,7 +3992,7 @@
           "club": "Bayer Leverkusen"
         },
         {
-          "number": 8,
+          "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
           "name": "Jordan Henderson",
@@ -3951,7 +4002,7 @@
           "club": "Brentford"
         },
         {
-          "number": 4,
+          "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
           "name": "Declan Rice",
@@ -3961,7 +4012,7 @@
           "club": "Arsenal"
         },
         {
-          "number": 10,
+          "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
           "name": "Jude Bellingham",
@@ -3971,7 +4022,7 @@
           "club": "Real Madrid"
         },
         {
-          "number": 15,
+          "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
           "name": "Morgan Rogers",
@@ -3981,7 +4032,7 @@
           "club": "Aston Villa"
         },
         {
-          "number": 26,
+          "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
           "name": "Kobbie Mainoo",
@@ -3991,7 +4042,7 @@
           "club": "Manchester United"
         },
         {
-          "number": 16,
+          "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
           "name": "Elliot Anderson",
@@ -4001,17 +4052,17 @@
           "club": "Nottingham Forest"
         },
         {
-          "number": 9,
+          "number": 4,
           "position_code": "FW",
           "position": "Forward",
-          "name": "Harry Kane ( captain )",
+          "name": "Harry Kane",
           "date_of_birth": "1993-07-28",
           "age": 32,
           "caps": 112,
           "club": "Bayern Munich"
         },
         {
-          "number": 11,
+          "number": 4,
           "position_code": "FW",
           "position": "Forward",
           "name": "Marcus Rashford",
@@ -4021,7 +4072,7 @@
           "club": "Barcelona"
         },
         {
-          "number": 7,
+          "number": 4,
           "position_code": "FW",
           "position": "Forward",
           "name": "Bukayo Saka",
@@ -4031,7 +4082,7 @@
           "club": "Arsenal"
         },
         {
-          "number": 19,
+          "number": 4,
           "position_code": "FW",
           "position": "Forward",
           "name": "Ollie Watkins",
@@ -4041,7 +4092,7 @@
           "club": "Aston Villa"
         },
         {
-          "number": 18,
+          "number": 4,
           "position_code": "FW",
           "position": "Forward",
           "name": "Anthony Gordon",
@@ -4051,7 +4102,7 @@
           "club": "Newcastle United"
         },
         {
-          "number": 20,
+          "number": 4,
           "position_code": "FW",
           "position": "Forward",
           "name": "Eberechi Eze",
@@ -4061,7 +4112,7 @@
           "club": "Arsenal"
         },
         {
-          "number": 23,
+          "number": 4,
           "position_code": "FW",
           "position": "Forward",
           "name": "Noni Madueke",
@@ -4071,7 +4122,7 @@
           "club": "Arsenal"
         },
         {
-          "number": 17,
+          "number": 4,
           "position_code": "FW",
           "position": "Forward",
           "name": "Ivan Toney",
@@ -4180,7 +4231,7 @@
           "number": 10,
           "position_code": "FW",
           "position": "Forward",
-          "name": "Kylian Mbappé ( captain )",
+          "name": "Kylian Mbappé",
           "date_of_birth": "1998-12-20",
           "age": 27,
           "caps": 96,
@@ -4363,26 +4414,6 @@
           "club": "Bayern Munich"
         },
         {
-          "number": 1,
-          "position_code": "GK",
-          "position": "Goalkeeper",
-          "name": "Oliver Baumann",
-          "date_of_birth": "1990-06-02",
-          "age": 36,
-          "caps": 11,
-          "club": "TSG Hoffenheim"
-        },
-        {
-          "number": 1,
-          "position_code": "GK",
-          "position": "Goalkeeper",
-          "name": "Alexander Nübel",
-          "date_of_birth": "1996-09-30",
-          "age": 29,
-          "caps": 3,
-          "club": "VfB Stuttgart"
-        },
-        {
           "number": 2,
           "position_code": "DF",
           "position": "Defender",
@@ -4393,37 +4424,7 @@
           "club": "Real Madrid"
         },
         {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Jonathan Tah",
-          "date_of_birth": "1996-02-11",
-          "age": 30,
-          "caps": 45,
-          "club": "Bayern Munich"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "David Raum",
-          "date_of_birth": "1998-04-22",
-          "age": 28,
-          "caps": 36,
-          "club": "RB Leipzig"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Nico Schlotterbeck",
-          "date_of_birth": "1999-12-01",
-          "age": 26,
-          "caps": 25,
-          "club": "Borussia Dortmund"
-        },
-        {
-          "number": 2,
+          "number": 3,
           "position_code": "DF",
           "position": "Defender",
           "name": "Waldemar Anton",
@@ -4433,97 +4434,17 @@
           "club": "Borussia Dortmund"
         },
         {
-          "number": 2,
+          "number": 4,
           "position_code": "DF",
           "position": "Defender",
-          "name": "Malick Thiaw",
-          "date_of_birth": "2001-08-08",
-          "age": 24,
-          "caps": 5,
-          "club": "Newcastle United"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Nathaniel Brown",
-          "date_of_birth": "2003-06-16",
-          "age": 22,
-          "caps": 3,
-          "club": "Eintracht Frankfurt"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Joshua Kimmich ( captain )",
-          "date_of_birth": "1995-02-08",
-          "age": 31,
-          "caps": 108,
-          "club": "Bayern Munich"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Leroy Sané",
-          "date_of_birth": "1996-01-11",
+          "name": "Jonathan Tah",
+          "date_of_birth": "1996-02-11",
           "age": 30,
-          "caps": 74,
-          "club": "Galatasaray"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Leon Goretzka",
-          "date_of_birth": "1995-02-06",
-          "age": 31,
-          "caps": 69,
+          "caps": 45,
           "club": "Bayern Munich"
         },
         {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Jamal Musiala",
-          "date_of_birth": "2003-02-26",
-          "age": 23,
-          "caps": 40,
-          "club": "Bayern Munich"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Florian Wirtz",
-          "date_of_birth": "2003-05-03",
-          "age": 23,
-          "caps": 39,
-          "club": "Liverpool"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Pascal Groß",
-          "date_of_birth": "1991-06-15",
-          "age": 34,
-          "caps": 18,
-          "club": "Brighton & Hove Albion"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Nadiem Amiri",
-          "date_of_birth": "1996-10-27",
-          "age": 29,
-          "caps": 9,
-          "club": "Mainz 05"
-        },
-        {
-          "number": 3,
+          "number": 5,
           "position_code": "MF",
           "position": "Midfielder",
           "name": "Aleksandar Pavlović",
@@ -4533,47 +4454,17 @@
           "club": "Bayern Munich"
         },
         {
-          "number": 3,
+          "number": 6,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Angelo Stiller",
-          "date_of_birth": "2001-04-04",
-          "age": 25,
-          "caps": 7,
-          "club": "VfB Stuttgart"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Felix Nmecha",
-          "date_of_birth": "2000-10-10",
-          "age": 25,
-          "caps": 6,
-          "club": "Borussia Dortmund"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Jamie Leweling",
-          "date_of_birth": "2001-02-26",
-          "age": 25,
-          "caps": 4,
-          "club": "VfB Stuttgart"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Lennart Karl",
-          "date_of_birth": "2008-02-22",
-          "age": 18,
-          "caps": 2,
+          "name": "Joshua Kimmich",
+          "date_of_birth": "1995-02-08",
+          "age": 31,
+          "caps": 108,
           "club": "Bayern Munich"
         },
         {
-          "number": 4,
+          "number": 7,
           "position_code": "FW",
           "position": "Forward",
           "name": "Kai Havertz",
@@ -4583,7 +4474,37 @@
           "club": "Arsenal"
         },
         {
-          "number": 4,
+          "number": 8,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Leon Goretzka",
+          "date_of_birth": "1995-02-06",
+          "age": 31,
+          "caps": 69,
+          "club": "Bayern Munich"
+        },
+        {
+          "number": 9,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Jamie Leweling",
+          "date_of_birth": "2001-02-26",
+          "age": 25,
+          "caps": 4,
+          "club": "VfB Stuttgart"
+        },
+        {
+          "number": 10,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Jamal Musiala",
+          "date_of_birth": "2003-02-26",
+          "age": 23,
+          "caps": 40,
+          "club": "Bayern Munich"
+        },
+        {
+          "number": 11,
           "position_code": "FW",
           "position": "Forward",
           "name": "Nick Woltemade",
@@ -4593,17 +4514,27 @@
           "club": "Newcastle United"
         },
         {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Deniz Undav",
-          "date_of_birth": "1996-07-19",
-          "age": 29,
-          "caps": 7,
-          "club": "VfB Stuttgart"
+          "number": 12,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Oliver Baumann",
+          "date_of_birth": "1990-06-02",
+          "age": 36,
+          "caps": 11,
+          "club": "TSG Hoffenheim"
         },
         {
-          "number": 4,
+          "number": 13,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Pascal Groß",
+          "date_of_birth": "1991-06-15",
+          "age": 34,
+          "caps": 18,
+          "club": "Brighton & Hove Albion"
+        },
+        {
+          "number": 14,
           "position_code": "FW",
           "position": "Forward",
           "name": "Maximilian Beier",
@@ -4611,6 +4542,412 @@
           "age": 23,
           "caps": 7,
           "club": "Borussia Dortmund"
+        },
+        {
+          "number": 15,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Nico Schlotterbeck",
+          "date_of_birth": "1999-12-01",
+          "age": 26,
+          "caps": 25,
+          "club": "Borussia Dortmund"
+        },
+        {
+          "number": 16,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Angelo Stiller",
+          "date_of_birth": "2001-04-04",
+          "age": 25,
+          "caps": 7,
+          "club": "VfB Stuttgart"
+        },
+        {
+          "number": 17,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Florian Wirtz",
+          "date_of_birth": "2003-05-03",
+          "age": 23,
+          "caps": 39,
+          "club": "Liverpool"
+        },
+        {
+          "number": 18,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Nathaniel Brown",
+          "date_of_birth": "2003-06-16",
+          "age": 22,
+          "caps": 3,
+          "club": "Eintracht Frankfurt"
+        },
+        {
+          "number": 19,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Leroy Sané",
+          "date_of_birth": "1996-01-11",
+          "age": 30,
+          "caps": 74,
+          "club": "Galatasaray"
+        },
+        {
+          "number": 20,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Nadiem Amiri",
+          "date_of_birth": "1996-10-27",
+          "age": 29,
+          "caps": 9,
+          "club": "Mainz 05"
+        },
+        {
+          "number": 21,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Alexander Nübel",
+          "date_of_birth": "1996-09-30",
+          "age": 29,
+          "caps": 3,
+          "club": "VfB Stuttgart"
+        },
+        {
+          "number": 22,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "David Raum",
+          "date_of_birth": "1998-04-22",
+          "age": 28,
+          "caps": 36,
+          "club": "RB Leipzig"
+        },
+        {
+          "number": 23,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Felix Nmecha",
+          "date_of_birth": "2000-10-10",
+          "age": 25,
+          "caps": 6,
+          "club": "Borussia Dortmund"
+        },
+        {
+          "number": 24,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Malick Thiaw",
+          "date_of_birth": "2001-08-08",
+          "age": 24,
+          "caps": 5,
+          "club": "Newcastle United"
+        },
+        {
+          "number": 25,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Lennart Karl",
+          "date_of_birth": "2008-02-22",
+          "age": 18,
+          "caps": 2,
+          "club": "Bayern Munich"
+        },
+        {
+          "number": 26,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Deniz Undav",
+          "date_of_birth": "1996-07-19",
+          "age": 29,
+          "caps": 7,
+          "club": "VfB Stuttgart"
+        }
+      ]
+    },
+    {
+      "team": "Ghana",
+      "coach": "Carlos Queiroz",
+      "players": [
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Lawrence Ati-Zigi",
+          "date_of_birth": "1996-11-29",
+          "age": 29,
+          "caps": 28,
+          "club": "St. Gallen"
+        },
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Benjamin Asare",
+          "date_of_birth": "1992-07-13",
+          "age": 33,
+          "caps": 10,
+          "club": "Hearts of Oak"
+        },
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Solomon Agbasi",
+          "date_of_birth": "2000-10-13",
+          "age": 25,
+          "caps": 1,
+          "club": "Hearts of Oak"
+        },
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Joseph Anang",
+          "date_of_birth": "2000-06-08",
+          "age": 26,
+          "caps": 1,
+          "club": "St Patrick's Athletic"
+        },
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Paul Reverson",
+          "date_of_birth": "2005-06-20",
+          "age": 20,
+          "caps": 0,
+          "club": "Jong Ajax"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Abdul Rahman Baba",
+          "date_of_birth": "1994-07-02",
+          "age": 31,
+          "caps": 52,
+          "club": "PAOK"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Gideon Mensah",
+          "date_of_birth": "1998-07-18",
+          "age": 27,
+          "caps": 39,
+          "club": "Auxerre"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Alexander Djiku",
+          "date_of_birth": "1994-08-09",
+          "age": 31,
+          "caps": 38,
+          "club": "Spartak Moscow"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Alidu Seidu",
+          "date_of_birth": "2000-06-04",
+          "age": 26,
+          "caps": 23,
+          "club": "Rennes"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Jerome Opoku",
+          "date_of_birth": "1998-10-14",
+          "age": 27,
+          "caps": 10,
+          "club": "İstanbul Başakşehir"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Jonas Adjetey",
+          "date_of_birth": "2003-12-13",
+          "age": 22,
+          "caps": 9,
+          "club": "VfL Wolfsburg"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Abdul Mumin",
+          "date_of_birth": "1998-06-06",
+          "age": 28,
+          "caps": 4,
+          "club": "Rayo Vallecano"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Kojo Peprah Oppong",
+          "date_of_birth": "2004-06-04",
+          "age": 22,
+          "caps": 4,
+          "club": "Nice"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Marvin Senaya",
+          "date_of_birth": "2001-01-28",
+          "age": 25,
+          "caps": 1,
+          "club": "Auxerre"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Thomas Partey",
+          "date_of_birth": "1993-06-13",
+          "age": 32,
+          "caps": 56,
+          "club": "Villarreal"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Abdul Fatawu",
+          "date_of_birth": "2004-03-08",
+          "age": 22,
+          "caps": 27,
+          "club": "Leicester City"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Kamaldeen Sulemana",
+          "date_of_birth": "2002-02-15",
+          "age": 24,
+          "caps": 27,
+          "club": "Atalanta"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Elisha Owusu",
+          "date_of_birth": "1997-11-07",
+          "age": 28,
+          "caps": 19,
+          "club": "Auxerre"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Caleb Yirenkyi",
+          "date_of_birth": "2006-01-15",
+          "age": 20,
+          "caps": 10,
+          "club": "Nordsjælland"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Kwasi Sibo",
+          "date_of_birth": "1998-06-24",
+          "age": 27,
+          "caps": 7,
+          "club": "Oviedo"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Augustine Boakye",
+          "date_of_birth": "2000-11-03",
+          "age": 25,
+          "caps": 0,
+          "club": "Saint-Étienne"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Jordan Ayew",
+          "date_of_birth": "1991-09-11",
+          "age": 34,
+          "caps": 117,
+          "club": "Leicester City"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Antoine Semenyo",
+          "date_of_birth": "2000-01-07",
+          "age": 26,
+          "caps": 34,
+          "club": "Manchester City"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Iñaki Williams",
+          "date_of_birth": "1994-06-15",
+          "age": 31,
+          "caps": 25,
+          "club": "Athletic Bilbao"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Ernest Nuamah",
+          "date_of_birth": "2003-11-01",
+          "age": 22,
+          "caps": 18,
+          "club": "Lyon"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Christopher Bonsu Baah",
+          "date_of_birth": "2004-12-14",
+          "age": 21,
+          "caps": 8,
+          "club": "Al-Qadsiah"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Brandon Thomas-Asante",
+          "date_of_birth": "1998-12-28",
+          "age": 27,
+          "caps": 7,
+          "club": "Coventry City"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Prince Kwabena Adu",
+          "date_of_birth": "2003-09-23",
+          "age": 22,
+          "caps": 4,
+          "club": "Viktoria Plzeň"
         }
       ]
     },
@@ -4622,7 +4959,7 @@
           "number": 1,
           "position_code": "GK",
           "position": "Goalkeeper",
-          "name": "Johny Placide ( captain )",
+          "name": "Johny Placide",
           "date_of_birth": "1988-01-29",
           "age": 38,
           "caps": 79,
@@ -5194,7 +5531,7 @@
           "number": 1,
           "position_code": "GK",
           "position": "Goalkeeper",
-          "name": "Jalal Hassan ( captain )",
+          "name": "Jalal Hassan",
           "date_of_birth": "1991-05-18",
           "age": 35,
           "caps": 100,
@@ -5650,7 +5987,7 @@
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Franck Kessié ( captain )",
+          "name": "Franck Kessié",
           "date_of_birth": "1996-12-19",
           "age": 29,
           "caps": 102,
@@ -5813,76 +6150,6 @@
           "club": "Parma"
         },
         {
-          "number": 1,
-          "position_code": "GK",
-          "position": "Goalkeeper",
-          "name": "Keisuke Ōsako",
-          "date_of_birth": "1999-07-28",
-          "age": 26,
-          "caps": 11,
-          "club": "Sanfrecce Hiroshima"
-        },
-        {
-          "number": 1,
-          "position_code": "GK",
-          "position": "Goalkeeper",
-          "name": "Tomoki Hayakawa",
-          "date_of_birth": "1999-03-03",
-          "age": 27,
-          "caps": 3,
-          "club": "Kashima Antlers"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Yūto Nagatomo",
-          "date_of_birth": "1986-09-12",
-          "age": 39,
-          "caps": 144,
-          "club": "FC Tokyo"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Takehiro Tomiyasu",
-          "date_of_birth": "1998-11-05",
-          "age": 27,
-          "caps": 42,
-          "club": "Ajax"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Kō Itakura",
-          "date_of_birth": "1997-01-27",
-          "age": 29,
-          "caps": 39,
-          "club": "Ajax"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Shōgo Taniguchi",
-          "date_of_birth": "1991-07-15",
-          "age": 34,
-          "caps": 37,
-          "club": "Sint-Truiden"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Hiroki Itō",
-          "date_of_birth": "1999-05-12",
-          "age": 27,
-          "caps": 23,
-          "club": "Bayern Munich"
-        },
-        {
           "number": 2,
           "position_code": "DF",
           "position": "Defender",
@@ -5893,87 +6160,47 @@
           "club": "Werder Bremen"
         },
         {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Ayumu Seko",
-          "date_of_birth": "2000-06-07",
-          "age": 26,
-          "caps": 13,
-          "club": "Le Havre"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Tsuyoshi Watanabe",
-          "date_of_birth": "1997-02-05",
-          "age": 29,
-          "caps": 10,
-          "club": "Feyenoord"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Junnosuke Suzuki",
-          "date_of_birth": "2003-07-12",
-          "age": 22,
-          "caps": 6,
-          "club": "Copenhagen"
-        },
-        {
           "number": 3,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Shōgo Taniguchi",
+          "date_of_birth": "1991-07-15",
+          "age": 34,
+          "caps": 37,
+          "club": "Sint-Truiden"
+        },
+        {
+          "number": 4,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Kō Itakura",
+          "date_of_birth": "1997-01-27",
+          "age": 29,
+          "caps": 39,
+          "club": "Ajax"
+        },
+        {
+          "number": 5,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Yūto Nagatomo",
+          "date_of_birth": "1986-09-12",
+          "age": 39,
+          "caps": 144,
+          "club": "FC Tokyo"
+        },
+        {
+          "number": 6,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Wataru Endo ( captain )",
+          "name": "Wataru Endo",
           "date_of_birth": "1993-02-09",
           "age": 33,
           "caps": 72,
           "club": "Liverpool"
         },
         {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Junya Itō",
-          "date_of_birth": "1993-03-09",
-          "age": 33,
-          "caps": 68,
-          "club": "Genk"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Ritsu Dōan",
-          "date_of_birth": "1998-06-16",
-          "age": 27,
-          "caps": 64,
-          "club": "Eintracht Frankfurt"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Daichi Kamada",
-          "date_of_birth": "1996-08-05",
-          "age": 29,
-          "caps": 49,
-          "club": "Crystal Palace"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Takefusa Kubo",
-          "date_of_birth": "2001-06-04",
-          "age": 25,
-          "caps": 48,
-          "club": "Real Sociedad"
-        },
-        {
-          "number": 3,
+          "number": 7,
           "position_code": "MF",
           "position": "Midfielder",
           "name": "Ao Tanaka",
@@ -5983,67 +6210,17 @@
           "club": "Leeds United"
         },
         {
-          "number": 3,
+          "number": 8,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Keito Nakamura",
-          "date_of_birth": "2000-07-28",
+          "name": "Takefusa Kubo",
+          "date_of_birth": "2001-06-04",
           "age": 25,
-          "caps": 24,
-          "club": "Reims"
+          "caps": 48,
+          "club": "Real Sociedad"
         },
         {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Kaishū Sano",
-          "date_of_birth": "2000-12-30",
-          "age": 25,
-          "caps": 12,
-          "club": "Mainz 05"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Ayase Ueda",
-          "date_of_birth": "1998-08-28",
-          "age": 27,
-          "caps": 38,
-          "club": "Feyenoord"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Daizen Maeda",
-          "date_of_birth": "1997-10-20",
-          "age": 28,
-          "caps": 27,
-          "club": "Celtic"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Kōki Ogawa",
-          "date_of_birth": "1997-08-08",
-          "age": 28,
-          "caps": 14,
-          "club": "NEC"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Yuito Suzuki",
-          "date_of_birth": "2001-10-25",
-          "age": 24,
-          "caps": 6,
-          "club": "SC Freiburg"
-        },
-        {
-          "number": 4,
+          "number": 9,
           "position_code": "FW",
           "position": "Forward",
           "name": "Keisuke Gotō",
@@ -6053,7 +6230,167 @@
           "club": "Sint-Truiden"
         },
         {
-          "number": 4,
+          "number": 10,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Ritsu Dōan",
+          "date_of_birth": "1998-06-16",
+          "age": 27,
+          "caps": 64,
+          "club": "Eintracht Frankfurt"
+        },
+        {
+          "number": 11,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Daizen Maeda",
+          "date_of_birth": "1997-10-20",
+          "age": 28,
+          "caps": 27,
+          "club": "Celtic"
+        },
+        {
+          "number": 12,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Keisuke Ōsako",
+          "date_of_birth": "1999-07-28",
+          "age": 26,
+          "caps": 11,
+          "club": "Sanfrecce Hiroshima"
+        },
+        {
+          "number": 13,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Keito Nakamura",
+          "date_of_birth": "2000-07-28",
+          "age": 25,
+          "caps": 24,
+          "club": "Reims"
+        },
+        {
+          "number": 14,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Junya Itō",
+          "date_of_birth": "1993-03-09",
+          "age": 33,
+          "caps": 68,
+          "club": "Genk"
+        },
+        {
+          "number": 15,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Daichi Kamada",
+          "date_of_birth": "1996-08-05",
+          "age": 29,
+          "caps": 49,
+          "club": "Crystal Palace"
+        },
+        {
+          "number": 16,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Tsuyoshi Watanabe",
+          "date_of_birth": "1997-02-05",
+          "age": 29,
+          "caps": 10,
+          "club": "Feyenoord"
+        },
+        {
+          "number": 17,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Yuito Suzuki",
+          "date_of_birth": "2001-10-25",
+          "age": 24,
+          "caps": 6,
+          "club": "SC Freiburg"
+        },
+        {
+          "number": 18,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Ayase Ueda",
+          "date_of_birth": "1998-08-28",
+          "age": 27,
+          "caps": 38,
+          "club": "Feyenoord"
+        },
+        {
+          "number": 19,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Kōki Ogawa",
+          "date_of_birth": "1997-08-08",
+          "age": 28,
+          "caps": 14,
+          "club": "NEC"
+        },
+        {
+          "number": 20,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Ayumu Seko",
+          "date_of_birth": "2000-06-07",
+          "age": 26,
+          "caps": 13,
+          "club": "Le Havre"
+        },
+        {
+          "number": 21,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Hiroki Itō",
+          "date_of_birth": "1999-05-12",
+          "age": 27,
+          "caps": 23,
+          "club": "Bayern Munich"
+        },
+        {
+          "number": 22,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Takehiro Tomiyasu",
+          "date_of_birth": "1998-11-05",
+          "age": 27,
+          "caps": 42,
+          "club": "Ajax"
+        },
+        {
+          "number": 23,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Tomoki Hayakawa",
+          "date_of_birth": "1999-03-03",
+          "age": 27,
+          "caps": 3,
+          "club": "Kashima Antlers"
+        },
+        {
+          "number": 24,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Kaishū Sano",
+          "date_of_birth": "2000-12-30",
+          "age": 25,
+          "caps": 12,
+          "club": "Mainz 05"
+        },
+        {
+          "number": 25,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Junnosuke Suzuki",
+          "date_of_birth": "2003-07-12",
+          "age": 22,
+          "caps": 6,
+          "club": "Copenhagen"
+        },
+        {
+          "number": 26,
           "position_code": "FW",
           "position": "Forward",
           "name": "Kento Shiogai",
@@ -6112,7 +6449,7 @@
           "number": 2,
           "position_code": "DF",
           "position": "Defender",
-          "name": "Ihsan Haddad ( captain )",
+          "name": "Ihsan Haddad",
           "date_of_birth": "1994-02-05",
           "age": 32,
           "caps": 90,
@@ -6548,26 +6885,6 @@
           "number": 2,
           "position_code": "DF",
           "position": "Defender",
-          "name": "Eduardo Águila",
-          "date_of_birth": "2002-05-17",
-          "age": 24,
-          "caps": 2,
-          "club": "Atlético San Luis"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Denzell García",
-          "date_of_birth": "2003-08-15",
-          "age": 22,
-          "caps": 2,
-          "club": "Juárez"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
           "name": "Alejandro Gómez",
           "date_of_birth": "2002-01-31",
           "age": 24,
@@ -6595,20 +6912,10 @@
           "club": "América"
         },
         {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Luis Rey",
-          "date_of_birth": "2002-09-14",
-          "age": 23,
-          "caps": 1,
-          "club": "Puebla"
-        },
-        {
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Edson Álvarez ( captain )",
+          "name": "Edson Álvarez",
           "date_of_birth": "1997-10-24",
           "age": 28,
           "caps": 96,
@@ -6808,16 +7115,6 @@
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Isaías Violante",
-          "date_of_birth": "2003-10-20",
-          "age": 22,
-          "caps": 1,
-          "club": "América"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
           "name": "Alexéi Domínguez",
           "date_of_birth": "2005-01-03",
           "age": 21,
@@ -6927,6 +7224,538 @@
       ]
     },
     {
+      "team": "Morocco",
+      "coach": "Mohamed Ouahbi",
+      "players": [
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Yassine Bounou",
+          "date_of_birth": "1991-04-05",
+          "age": 35,
+          "caps": 89,
+          "club": "Al-Hilal"
+        },
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Munir Mohamedi",
+          "date_of_birth": "1989-05-10",
+          "age": 37,
+          "caps": 50,
+          "club": "RS Berkane"
+        },
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Ahmed Reda Tagnaouti",
+          "date_of_birth": "1996-04-05",
+          "age": 30,
+          "caps": 3,
+          "club": "AS FAR"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Achraf Hakimi",
+          "date_of_birth": "1998-11-04",
+          "age": 27,
+          "caps": 95,
+          "club": "Paris Saint-Germain"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Nayef Aguerd",
+          "date_of_birth": "1996-03-30",
+          "age": 30,
+          "caps": 64,
+          "club": "Marseille"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Noussair Mazraoui",
+          "date_of_birth": "1997-11-14",
+          "age": 28,
+          "caps": 43,
+          "club": "Manchester United"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Youssef Belammari",
+          "date_of_birth": "1998-09-20",
+          "age": 27,
+          "caps": 8,
+          "club": "Al Ahly"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Anass Salah-Eddine",
+          "date_of_birth": "2002-01-18",
+          "age": 24,
+          "caps": 8,
+          "club": "PSV Eindhoven"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Chadi Riad",
+          "date_of_birth": "2003-06-17",
+          "age": 22,
+          "caps": 4,
+          "club": "Crystal Palace"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Issa Diop",
+          "date_of_birth": "1997-01-09",
+          "age": 29,
+          "caps": 2,
+          "club": "Fulham"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Zakaria El Ouahdi",
+          "date_of_birth": "2001-12-31",
+          "age": 24,
+          "caps": 2,
+          "club": "Genk"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Redouane Halhal",
+          "date_of_birth": "2003-03-05",
+          "age": 23,
+          "caps": 1,
+          "club": "Mechelen"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Sofyan Amrabat",
+          "date_of_birth": "1996-08-21",
+          "age": 29,
+          "caps": 73,
+          "club": "Real Betis"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Azzedine Ounahi",
+          "date_of_birth": "2000-04-19",
+          "age": 26,
+          "caps": 47,
+          "club": "Girona"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Bilal El Khannouss",
+          "date_of_birth": "2004-05-10",
+          "age": 22,
+          "caps": 35,
+          "club": "VfB Stuttgart"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Ismael Saibari",
+          "date_of_birth": "2001-01-28",
+          "age": 25,
+          "caps": 27,
+          "club": "PSV Eindhoven"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Neil El Aynaoui",
+          "date_of_birth": "2001-07-02",
+          "age": 24,
+          "caps": 15,
+          "club": "Roma"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Samir El Mourabet",
+          "date_of_birth": "2006-08-06",
+          "age": 19,
+          "caps": 2,
+          "club": "Strasbourg"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Ayyoub Bouaddi",
+          "date_of_birth": "2007-10-02",
+          "age": 18,
+          "caps": 0,
+          "club": "Lille"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Ayoub El Kaabi",
+          "date_of_birth": "1993-06-25",
+          "age": 32,
+          "caps": 55,
+          "club": "Olympiacos"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Abde Ezzalzouli",
+          "date_of_birth": "2001-12-17",
+          "age": 24,
+          "caps": 35,
+          "club": "Real Betis"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Soufiane Rahimi",
+          "date_of_birth": "1996-06-02",
+          "age": 30,
+          "caps": 25,
+          "club": "Al Ain"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Brahim Díaz",
+          "date_of_birth": "1999-08-03",
+          "age": 26,
+          "caps": 24,
+          "club": "Real Madrid"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Chemsdine Talbi",
+          "date_of_birth": "2005-05-09",
+          "age": 21,
+          "caps": 5,
+          "club": "Sunderland"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Gessime Yassine",
+          "date_of_birth": "2005-11-22",
+          "age": 20,
+          "caps": 2,
+          "club": "Strasbourg"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Ayoube Amaimouni",
+          "date_of_birth": "2004-11-30",
+          "age": 21,
+          "caps": 0,
+          "club": "Eintracht Frankfurt"
+        }
+      ]
+    },
+    {
+      "team": "Netherlands",
+      "coach": "Ronald Koeman",
+      "players": [
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Bart Verbruggen",
+          "date_of_birth": "2002-08-18",
+          "age": 23,
+          "caps": 27,
+          "club": "Brighton & Hove Albion"
+        },
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Mark Flekken",
+          "date_of_birth": "1993-06-13",
+          "age": 32,
+          "caps": 11,
+          "club": "Bayer Leverkusen"
+        },
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Robin Roefs",
+          "date_of_birth": "2003-01-17",
+          "age": 23,
+          "caps": 0,
+          "club": "Sunderland"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Virgil van Dijk",
+          "date_of_birth": "1991-07-08",
+          "age": 34,
+          "caps": 90,
+          "club": "Liverpool"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Denzel Dumfries",
+          "date_of_birth": "1996-04-18",
+          "age": 30,
+          "caps": 71,
+          "club": "Inter Milan"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Nathan Aké",
+          "date_of_birth": "1995-02-18",
+          "age": 31,
+          "caps": 58,
+          "club": "Manchester City"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Jurriën Timber",
+          "date_of_birth": "2001-06-17",
+          "age": 24,
+          "caps": 23,
+          "club": "Arsenal"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Micky van de Ven",
+          "date_of_birth": "2001-04-19",
+          "age": 25,
+          "caps": 19,
+          "club": "Tottenham Hotspur"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Mats Wieffer",
+          "date_of_birth": "1999-11-16",
+          "age": 26,
+          "caps": 14,
+          "club": "Brighton & Hove Albion"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Jan Paul van Hecke",
+          "date_of_birth": "2000-06-08",
+          "age": 26,
+          "caps": 10,
+          "club": "Brighton & Hove Albion"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Jorrel Hato",
+          "date_of_birth": "2006-03-07",
+          "age": 20,
+          "caps": 7,
+          "club": "Chelsea"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Frenkie de Jong",
+          "date_of_birth": "1997-05-12",
+          "age": 29,
+          "caps": 64,
+          "club": "Barcelona"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Marten de Roon",
+          "date_of_birth": "1991-03-29",
+          "age": 35,
+          "caps": 42,
+          "club": "Atalanta"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Tijjani Reijnders",
+          "date_of_birth": "1998-07-29",
+          "age": 27,
+          "caps": 30,
+          "club": "Manchester City"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Teun Koopmeiners",
+          "date_of_birth": "1998-02-28",
+          "age": 28,
+          "caps": 27,
+          "club": "Juventus"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Ryan Gravenberch",
+          "date_of_birth": "2002-05-16",
+          "age": 24,
+          "caps": 25,
+          "club": "Liverpool"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Justin Kluivert",
+          "date_of_birth": "1999-05-05",
+          "age": 27,
+          "caps": 11,
+          "club": "Bournemouth"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Quinten Timber",
+          "date_of_birth": "2001-06-17",
+          "age": 24,
+          "caps": 10,
+          "club": "Marseille"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Guus Til",
+          "date_of_birth": "1997-12-22",
+          "age": 28,
+          "caps": 6,
+          "club": "PSV Eindhoven"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Memphis Depay",
+          "date_of_birth": "1994-02-13",
+          "age": 32,
+          "caps": 108,
+          "club": "Corinthians"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Wout Weghorst",
+          "date_of_birth": "1992-08-07",
+          "age": 33,
+          "caps": 51,
+          "club": "Ajax"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Donyell Malen",
+          "date_of_birth": "1999-01-19",
+          "age": 27,
+          "caps": 51,
+          "club": "Roma"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Cody Gakpo",
+          "date_of_birth": "1999-05-07",
+          "age": 27,
+          "caps": 48,
+          "club": "Liverpool"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Noa Lang",
+          "date_of_birth": "1999-06-17",
+          "age": 26,
+          "caps": 15,
+          "club": "Galatasaray"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Brian Brobbey",
+          "date_of_birth": "2002-02-01",
+          "age": 24,
+          "caps": 10,
+          "club": "Sunderland"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Crysencio Summerville",
+          "date_of_birth": "2001-10-30",
+          "age": 24,
+          "caps": 0,
+          "club": "West Ham United"
+        }
+      ]
+    },
+    {
       "team": "New Zealand",
       "coach": "Darren Bazeley",
       "players": [
@@ -7014,7 +7843,7 @@
           "number": 9,
           "position_code": "FW",
           "position": "Forward",
-          "name": "Chris Wood ( captain )",
+          "name": "Chris Wood",
           "date_of_birth": "1991-12-07",
           "age": 34,
           "caps": 88,
@@ -7290,7 +8119,7 @@
           "number": 10,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Martin Ødegaard ( captain )",
+          "name": "Martin Ødegaard",
           "date_of_birth": "1998-12-17",
           "age": 27,
           "caps": 67,
@@ -7459,6 +8288,272 @@
       ]
     },
     {
+      "team": "Panama",
+      "coach": "Thomas Christiansen",
+      "players": [
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Luis Mejía",
+          "date_of_birth": "1991-03-16",
+          "age": 35,
+          "caps": 56,
+          "club": "Nacional"
+        },
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Orlando Mosquera",
+          "date_of_birth": "1994-12-25",
+          "age": 31,
+          "caps": 46,
+          "club": "Al-Fayha"
+        },
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "César Samudio",
+          "date_of_birth": "1994-03-26",
+          "age": 32,
+          "caps": 4,
+          "club": "Marathón"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Eric Davis",
+          "date_of_birth": "1991-03-31",
+          "age": 35,
+          "caps": 104,
+          "club": "Plaza Amador"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Fidel Escobar",
+          "date_of_birth": "1995-01-09",
+          "age": 31,
+          "caps": 96,
+          "club": "Saprissa"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Michael Amir Murillo",
+          "date_of_birth": "1996-02-11",
+          "age": 30,
+          "caps": 91,
+          "club": "Beşiktaş"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Roderick Miller",
+          "date_of_birth": "1992-04-03",
+          "age": 34,
+          "caps": 48,
+          "club": "Turan Tovuz"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Andrés Andrade",
+          "date_of_birth": "1998-10-16",
+          "age": 27,
+          "caps": 47,
+          "club": "LASK"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "César Blackman",
+          "date_of_birth": "1998-04-02",
+          "age": 28,
+          "caps": 37,
+          "club": "Slovan Bratislava"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "José Córdoba",
+          "date_of_birth": "2001-06-03",
+          "age": 25,
+          "caps": 30,
+          "club": "Norwich City"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Jiovany Ramos",
+          "date_of_birth": "1997-01-26",
+          "age": 29,
+          "caps": 20,
+          "club": "Puerto Cabello"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Jorge Gutiérrez",
+          "date_of_birth": "1998-09-01",
+          "age": 27,
+          "caps": 17,
+          "club": "Deportivo La Guaira"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Edgardo Fariña",
+          "date_of_birth": "2001-09-21",
+          "age": 24,
+          "caps": 15,
+          "club": "Pari Nizhny Novgorod"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Aníbal Godoy",
+          "date_of_birth": "1990-02-10",
+          "age": 36,
+          "caps": 159,
+          "club": "San Diego"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Alberto Quintero",
+          "date_of_birth": "1987-12-18",
+          "age": 38,
+          "caps": 140,
+          "club": "Plaza Amador"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Yoel Bárcenas",
+          "date_of_birth": "1993-10-23",
+          "age": 32,
+          "caps": 101,
+          "club": "Mazatlán"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Adalberto Carrasquilla",
+          "date_of_birth": "1998-11-28",
+          "age": 27,
+          "caps": 73,
+          "club": "UNAM"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "José Luis Rodríguez",
+          "date_of_birth": "1998-06-19",
+          "age": 27,
+          "caps": 67,
+          "club": "Juárez"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Cristian Martínez",
+          "date_of_birth": "1997-02-06",
+          "age": 29,
+          "caps": 63,
+          "club": "Ironi Kiryat Shmona"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "César Yanis",
+          "date_of_birth": "1996-01-28",
+          "age": 30,
+          "caps": 55,
+          "club": "Cobresal"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Carlos Harvey",
+          "date_of_birth": "2000-02-03",
+          "age": 26,
+          "caps": 25,
+          "club": "Minnesota United FC"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Azarias Londoño",
+          "date_of_birth": "2001-06-21",
+          "age": 24,
+          "caps": 10,
+          "club": "Universidad Católica"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "José Fajardo",
+          "date_of_birth": "1993-08-18",
+          "age": 32,
+          "caps": 65,
+          "club": "Universidad Católica"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Ismael Díaz",
+          "date_of_birth": "1997-05-12",
+          "age": 29,
+          "caps": 54,
+          "club": "León"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Cecilio Waterman",
+          "date_of_birth": "1991-04-13",
+          "age": 35,
+          "caps": 52,
+          "club": "Universidad de Concepción"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Tomás Rodríguez",
+          "date_of_birth": "1999-03-09",
+          "age": 27,
+          "caps": 11,
+          "club": "Saprissa"
+        }
+      ]
+    },
+    {
       "team": "Paraguay",
       "coach": "Gustavo Alfaro",
       "players": [
@@ -7526,7 +8621,7 @@
           "number": 2,
           "position_code": "DF",
           "position": "Defender",
-          "name": "Gustavo Gómez ( captain )",
+          "name": "Gustavo Gómez",
           "date_of_birth": "1993-05-06",
           "age": 33,
           "caps": 88,
@@ -8202,7 +9297,7 @@
           "number": 4,
           "position_code": "FW",
           "position": "Forward",
-          "name": "Cristiano Ronaldo ( captain )",
+          "name": "Cristiano Ronaldo",
           "date_of_birth": "1985-02-05",
           "age": 41,
           "caps": 226,
@@ -8325,16 +9420,6 @@
           "club": "Al-Shahaniya"
         },
         {
-          "number": 1,
-          "position_code": "GK",
-          "position": "Goalkeeper",
-          "name": "Fahad Younis",
-          "date_of_birth": "1994-07-30",
-          "age": 31,
-          "caps": 0,
-          "club": "Al-Sailiya"
-        },
-        {
           "number": 2,
           "position_code": "DF",
           "position": "Defender",
@@ -8353,26 +9438,6 @@
           "age": 35,
           "caps": 97,
           "club": "Al-Sadd"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Tarek Salman",
-          "date_of_birth": "1997-12-05",
-          "age": 28,
-          "caps": 90,
-          "club": "Al-Sadd"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Bassam Al-Rawi",
-          "date_of_birth": "1997-12-16",
-          "age": 28,
-          "caps": 70,
-          "club": "Al-Duhail"
         },
         {
           "number": 2,
@@ -8445,16 +9510,6 @@
           "club": "Al-Gharafa"
         },
         {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Niall Mason",
-          "date_of_birth": "1997-01-10",
-          "age": 29,
-          "caps": 0,
-          "club": "Qatar SC"
-        },
-        {
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
@@ -8483,16 +9538,6 @@
           "age": 29,
           "caps": 49,
           "club": "Al-Wakrah"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Mohammed Waad",
-          "date_of_birth": "1999-09-18",
-          "age": 26,
-          "caps": 49,
-          "club": "Al-Shamal"
         },
         {
           "number": 3,
@@ -8538,21 +9583,11 @@
           "number": 4,
           "position_code": "FW",
           "position": "Forward",
-          "name": "Hassan Al-Haydos ( captain )",
+          "name": "Hassan Al-Haydos",
           "date_of_birth": "1990-12-11",
           "age": 35,
           "caps": 184,
           "club": "Al-Sadd"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Sebastián Soria",
-          "date_of_birth": "1983-11-08",
-          "age": 42,
-          "caps": 124,
-          "club": "Qatar SC"
         },
         {
           "number": 4,
@@ -8623,16 +9658,6 @@
           "age": 25,
           "caps": 13,
           "club": "Al-Gharafa"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Mubarak Shanan",
-          "date_of_birth": "2004-02-20",
-          "age": 22,
-          "caps": 2,
-          "club": "Al-Duhail"
         }
       ]
     },
@@ -8794,7 +9819,7 @@
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Salem Al-Dawsari ( captain )",
+          "name": "Salem Al-Dawsari",
           "date_of_birth": "1991-08-19",
           "age": 34,
           "caps": 107,
@@ -8980,7 +10005,7 @@
           "number": 2,
           "position_code": "DF",
           "position": "Defender",
-          "name": "Andy Robertson ( captain )",
+          "name": "Andy Robertson",
           "date_of_birth": "1994-03-11",
           "age": 32,
           "caps": 92,
@@ -9246,7 +10271,7 @@
           "number": 2,
           "position_code": "DF",
           "position": "Defender",
-          "name": "Kalidou Koulibaly ( captain )",
+          "name": "Kalidou Koulibaly",
           "date_of_birth": "1991-06-20",
           "age": 34,
           "caps": 103,
@@ -9502,7 +10527,7 @@
           "number": 1,
           "position_code": "GK",
           "position": "Goalkeeper",
-          "name": "Ronwen Williams ( captain )",
+          "name": "Ronwen Williams",
           "date_of_birth": "1992-01-21",
           "age": 34,
           "caps": 62,
@@ -9532,7 +10557,7 @@
           "number": 1,
           "position_code": "GK",
           "position": "Goalkeeper",
-          "name": "Brandon Petersen",
+          "name": "Brandon Peterson",
           "date_of_birth": "1994-09-22",
           "age": 31,
           "caps": 0,
@@ -9652,16 +10677,6 @@
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Themba Zwane",
-          "date_of_birth": "1989-08-03",
-          "age": 36,
-          "caps": 53,
-          "club": "Mamelodi Sundowns"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
           "name": "Teboho Mokoena",
           "date_of_birth": "1997-01-24",
           "age": 29,
@@ -9717,6 +10732,16 @@
           "age": 26,
           "caps": 0,
           "club": "Durban City"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Themba Zwane",
+          "date_of_birth": "1989-08-03",
+          "age": 36,
+          "caps": 53,
+          "club": "Mamelodi Sundowns"
         },
         {
           "number": 4,
@@ -10058,7 +11083,7 @@
           "number": 4,
           "position_code": "FW",
           "position": "Forward",
-          "name": "Son Heung-min ( captain )",
+          "name": "Son Heung-min",
           "date_of_birth": "1992-07-08",
           "age": 33,
           "caps": 142,
@@ -10083,6 +11108,272 @@
           "age": 25,
           "caps": 26,
           "club": "Beşiktaş"
+        }
+      ]
+    },
+    {
+      "team": "Spain",
+      "coach": "Luis de la Fuente",
+      "players": [
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Unai Simón",
+          "date_of_birth": "1997-06-11",
+          "age": 29,
+          "caps": 57,
+          "club": "Athletic Bilbao"
+        },
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "David Raya",
+          "date_of_birth": "1995-09-15",
+          "age": 30,
+          "caps": 12,
+          "club": "Arsenal"
+        },
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Joan Garcia",
+          "date_of_birth": "2001-05-04",
+          "age": 25,
+          "caps": 1,
+          "club": "Barcelona"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Aymeric Laporte",
+          "date_of_birth": "1994-05-27",
+          "age": 32,
+          "caps": 44,
+          "club": "Athletic Bilbao"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Marc Cucurella",
+          "date_of_birth": "1998-07-22",
+          "age": 27,
+          "caps": 23,
+          "club": "Chelsea"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Marcos Llorente",
+          "date_of_birth": "1995-01-30",
+          "age": 31,
+          "caps": 23,
+          "club": "Atlético Madrid"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Eric García",
+          "date_of_birth": "2001-01-09",
+          "age": 25,
+          "caps": 19,
+          "club": "Barcelona"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Pedro Porro",
+          "date_of_birth": "1999-09-13",
+          "age": 26,
+          "caps": 16,
+          "club": "Tottenham Hotspur"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Álex Grimaldo",
+          "date_of_birth": "1995-09-20",
+          "age": 30,
+          "caps": 12,
+          "club": "Bayer Leverkusen"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Pau Cubarsí",
+          "date_of_birth": "2007-01-22",
+          "age": 19,
+          "caps": 11,
+          "club": "Barcelona"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Marc Pubill",
+          "date_of_birth": "2003-06-20",
+          "age": 22,
+          "caps": 0,
+          "club": "Atlético Madrid"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Rodri",
+          "date_of_birth": "1996-06-22",
+          "age": 29,
+          "caps": 61,
+          "club": "Manchester City"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Mikel Merino",
+          "date_of_birth": "1996-06-22",
+          "age": 29,
+          "caps": 41,
+          "club": "Arsenal"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Fabián Ruiz",
+          "date_of_birth": "1996-04-03",
+          "age": 30,
+          "caps": 41,
+          "club": "Paris Saint-Germain"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Pedri",
+          "date_of_birth": "2002-11-25",
+          "age": 23,
+          "caps": 40,
+          "club": "Barcelona"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Gavi",
+          "date_of_birth": "2004-08-05",
+          "age": 21,
+          "caps": 28,
+          "club": "Barcelona"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Martín Zubimendi",
+          "date_of_birth": "1999-02-02",
+          "age": 27,
+          "caps": 25,
+          "club": "Arsenal"
+        },
+        {
+          "number": 3,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Álex Baena",
+          "date_of_birth": "2001-07-20",
+          "age": 24,
+          "caps": 15,
+          "club": "Atlético Madrid"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Ferran Torres",
+          "date_of_birth": "2000-02-29",
+          "age": 26,
+          "caps": 55,
+          "club": "Barcelona"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Mikel Oyarzabal",
+          "date_of_birth": "1997-04-21",
+          "age": 29,
+          "caps": 52,
+          "club": "Real Sociedad"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Dani Olmo",
+          "date_of_birth": "1998-05-07",
+          "age": 28,
+          "caps": 48,
+          "club": "Barcelona"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Nico Williams",
+          "date_of_birth": "2002-07-12",
+          "age": 23,
+          "caps": 30,
+          "club": "Athletic Bilbao"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Lamine Yamal",
+          "date_of_birth": "2007-07-13",
+          "age": 18,
+          "caps": 25,
+          "club": "Barcelona"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Yéremy Pino",
+          "date_of_birth": "2002-10-20",
+          "age": 23,
+          "caps": 21,
+          "club": "Crystal Palace"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Borja Iglesias",
+          "date_of_birth": "1993-01-17",
+          "age": 33,
+          "caps": 6,
+          "club": "Celta Vigo"
+        },
+        {
+          "number": 4,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Víctor Muñoz",
+          "date_of_birth": "2003-07-13",
+          "age": 22,
+          "caps": 2,
+          "club": "Osasuna"
         }
       ]
     },
@@ -10114,7 +11405,7 @@
           "number": 3,
           "position_code": "DF",
           "position": "Defender",
-          "name": "Victor Lindelöf ( captain )",
+          "name": "Victor Lindelöf",
           "date_of_birth": "1994-07-17",
           "age": 31,
           "caps": 75,
@@ -10450,7 +11741,7 @@
           "number": 10,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Granit Xhaka ( captain )",
+          "name": "Granit Xhaka",
           "date_of_birth": "1992-09-27",
           "age": 33,
           "caps": 144,
@@ -10746,7 +12037,7 @@
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Ellyes Skhiri ( captain )",
+          "name": "Ellyes Skhiri",
           "date_of_birth": "1995-05-10",
           "age": 31,
           "caps": 81,
@@ -11062,7 +12353,7 @@
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Hakan Çalhanoğlu ( captain )",
+          "name": "Hakan Çalhanoğlu",
           "date_of_birth": "1994-02-08",
           "age": 32,
           "caps": 104,
@@ -11241,6 +12532,277 @@
       ]
     },
     {
+      "team": "United States",
+      "coach": "Mauricio Pochettino",
+      "players": [
+        {
+          "number": 1,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Matt Turner",
+          "date_of_birth": "1994-06-24",
+          "age": 31,
+          "caps": 53,
+          "club": "New England Revolution"
+        },
+        {
+          "number": 2,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Sergiño Dest",
+          "date_of_birth": "2000-11-03",
+          "age": 25,
+          "caps": 37,
+          "club": "PSV Eindhoven"
+        },
+        {
+          "number": 3,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Chris Richards",
+          "date_of_birth": "2000-03-28",
+          "age": 26,
+          "caps": 36,
+          "club": "Crystal Palace"
+        },
+        {
+          "number": 4,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Tyler Adams",
+          "date_of_birth": "1999-02-14",
+          "age": 27,
+          "caps": 52,
+          "club": "Bournemouth"
+        },
+        {
+          "number": 5,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Antonee Robinson",
+          "date_of_birth": "1997-08-08",
+          "age": 28,
+          "caps": 52,
+          "club": "Fulham"
+        },
+        {
+          "number": 6,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Auston Trusty",
+          "date_of_birth": "1998-08-12",
+          "age": 27,
+          "caps": 6,
+          "club": "Celtic"
+        },
+        {
+          "number": 7,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Giovanni Reyna",
+          "date_of_birth": "2002-11-13",
+          "age": 23,
+          "caps": 36,
+          "club": "Borussia Mönchengladbach"
+        },
+        {
+          "number": 8,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Weston McKennie",
+          "date_of_birth": "1998-08-28",
+          "age": 27,
+          "caps": 64,
+          "club": "Juventus"
+        },
+        {
+          "number": 9,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Ricardo Pepi",
+          "date_of_birth": "2003-01-09",
+          "age": 23,
+          "caps": 35,
+          "club": "PSV Eindhoven"
+        },
+        {
+          "number": 10,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Christian Pulisic",
+          "date_of_birth": "1998-09-18",
+          "age": 27,
+          "caps": 84,
+          "club": "Milan"
+        },
+        {
+          "number": 11,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Brenden Aaronson",
+          "date_of_birth": "2000-10-22",
+          "age": 25,
+          "caps": 57,
+          "club": "Leeds United"
+        },
+        {
+          "number": 12,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Miles Robinson",
+          "date_of_birth": "1997-03-14",
+          "age": 29,
+          "caps": 38,
+          "club": "FC Cincinnati"
+        },
+        {
+          "number": 13,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Tim Ream",
+          "date_of_birth": "1987-10-05",
+          "age": 38,
+          "caps": 80,
+          "club": "Charlotte FC"
+        },
+        {
+          "number": 14,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Sebastian Berhalter",
+          "date_of_birth": "2001-05-10",
+          "age": 25,
+          "caps": 11,
+          "club": "Vancouver Whitecaps FC"
+        },
+        {
+          "number": 15,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Cristian Roldan",
+          "date_of_birth": "1995-06-03",
+          "age": 31,
+          "caps": 45,
+          "club": "Seattle Sounders FC"
+        },
+        {
+          "number": 16,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Alex Freeman",
+          "date_of_birth": "2004-08-09",
+          "age": 21,
+          "caps": 15,
+          "club": "Villarreal"
+        },
+        {
+          "number": 17,
+          "position_code": "MF",
+          "position": "Midfielder",
+          "name": "Malik Tillman",
+          "date_of_birth": "2002-05-28",
+          "age": 24,
+          "caps": 28,
+          "club": "Bayer Leverkusen"
+        },
+        {
+          "number": 18,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Maximilian Arfsten",
+          "date_of_birth": "2001-04-19",
+          "age": 25,
+          "caps": 18,
+          "club": "Columbus Crew"
+        },
+        {
+          "number": 19,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Haji Wright",
+          "date_of_birth": "1998-03-27",
+          "age": 28,
+          "caps": 20,
+          "club": "Coventry City"
+        },
+        {
+          "number": 20,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Folarin Balogun",
+          "date_of_birth": "2001-07-03",
+          "age": 24,
+          "caps": 25,
+          "club": "Monaco"
+        },
+        {
+          "number": 21,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Timothy Weah",
+          "date_of_birth": "2000-02-22",
+          "age": 26,
+          "caps": 49,
+          "club": "Marseille"
+        },
+        {
+          "number": 22,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Mark McKenzie",
+          "date_of_birth": "1999-02-25",
+          "age": 27,
+          "caps": 27,
+          "club": "Toulouse"
+        },
+        {
+          "number": 23,
+          "position_code": "DF",
+          "position": "Defender",
+          "name": "Joe Scally",
+          "date_of_birth": "2002-12-31",
+          "age": 23,
+          "caps": 24,
+          "club": "Borussia Mönchengladbach"
+        },
+        {
+          "number": 24,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Matt Freese",
+          "date_of_birth": "1998-09-02",
+          "age": 27,
+          "caps": 14,
+          "club": "New York City FC"
+        },
+        {
+          "number": 25,
+          "position_code": "GK",
+          "position": "Goalkeeper",
+          "name": "Chris Brady",
+          "date_of_birth": "2004-03-03",
+          "age": 22,
+          "caps": 0,
+          "club": "Chicago Fire"
+        },
+        {
+          "number": 26,
+          "position_code": "FW",
+          "position": "Forward",
+          "name": "Alejandro Zendejas",
+          "date_of_birth": "1998-02-07",
+          "age": 28,
+          "caps": 13,
+          "club": "América"
+        }
+      ]
+    },
+    {
+      "team": "Uruguay",
+      "coach": "Marcelo Bielsa",
+      "players": []
+    },
+    {
       "team": "Uzbekistan",
       "coach": "Fabio Cannavaro",
       "players": [
@@ -11273,16 +12835,6 @@
           "age": 30,
           "caps": 2,
           "club": "Neftchi"
-        },
-        {
-          "number": 1,
-          "position_code": "GK",
-          "position": "Goalkeeper",
-          "name": "Vladimir Nazarov",
-          "date_of_birth": "2002-06-03",
-          "age": 24,
-          "caps": 1,
-          "club": "Pakhtakor"
         },
         {
           "number": 2,
@@ -11348,41 +12900,21 @@
           "number": 2,
           "position_code": "DF",
           "position": "Defender",
-          "name": "Ibrokhimkhalil Yuldoshev",
-          "date_of_birth": "2001-02-14",
-          "age": 25,
-          "caps": 16,
-          "club": "Neftchi"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
           "name": "Abdulla Abdullaev",
           "date_of_birth": "1997-09-01",
           "age": 28,
           "caps": 16,
-          "club": "Dibba Al Fujairah"
+          "club": "Dibba"
         },
         {
           "number": 2,
           "position_code": "DF",
           "position": "Defender",
           "name": "Bekhruz Karimov",
-          "date_of_birth": "2007-07-08",
+          "date_of_birth": "2007-08-07",
           "age": 18,
           "caps": 2,
           "club": "Surkhon"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Mukhammadkodir Khamraliev",
-          "date_of_birth": "2001-07-06",
-          "age": 24,
-          "caps": 2,
-          "club": "Pakhtakor"
         },
         {
           "number": 2,
@@ -11393,26 +12925,6 @@
           "age": 22,
           "caps": 2,
           "club": "Dinamo Samarqand"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Mukhammadrasul Abdumazhidov",
-          "date_of_birth": "2004-07-23",
-          "age": 21,
-          "caps": 0,
-          "club": "Pakhtakor"
-        },
-        {
-          "number": 2,
-          "position_code": "DF",
-          "position": "Defender",
-          "name": "Diyor Ortikboev",
-          "date_of_birth": "2003-01-06",
-          "age": 23,
-          "caps": 0,
-          "club": "Khorazm"
         },
         {
           "number": 2,
@@ -11478,26 +12990,6 @@
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Kuvondik Ruziev",
-          "date_of_birth": "1994-10-06",
-          "age": 31,
-          "caps": 6,
-          "club": "Neftchi"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Alisher Odilov",
-          "date_of_birth": "2001-07-15",
-          "age": 24,
-          "caps": 2,
-          "club": "Neftchi"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
           "name": "Jasurbek Jaloliddinov",
           "date_of_birth": "2002-05-15",
           "age": 24,
@@ -11518,26 +13010,6 @@
           "number": 3,
           "position_code": "MF",
           "position": "Midfielder",
-          "name": "Nodirbek Abdurazzokov",
-          "date_of_birth": "2004-05-26",
-          "age": 22,
-          "caps": 0,
-          "club": "AGMK"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
-          "name": "Sardorbek Bakhromov",
-          "date_of_birth": "2005-02-16",
-          "age": 21,
-          "caps": 0,
-          "club": "Nasaf"
-        },
-        {
-          "number": 3,
-          "position_code": "MF",
-          "position": "Midfielder",
           "name": "Sherzod Esanov",
           "date_of_birth": "2003-02-01",
           "age": 23,
@@ -11548,7 +13020,7 @@
           "number": 4,
           "position_code": "FW",
           "position": "Forward",
-          "name": "Eldor Shomurodov ( captain )",
+          "name": "Eldor Shomurodov",
           "date_of_birth": "1995-06-29",
           "age": 30,
           "caps": 90,
@@ -11633,16 +13105,6 @@
           "age": 27,
           "caps": 2,
           "club": "Erbil"
-        },
-        {
-          "number": 4,
-          "position_code": "FW",
-          "position": "Forward",
-          "name": "Khusayin Norchaev",
-          "date_of_birth": "2002-02-06",
-          "age": 24,
-          "caps": 1,
-          "club": "Navbahor"
         }
       ]
     }
