@@ -74,3 +74,22 @@ export type UserProfile = {
   predictions?: Prediction[];
   points?: number;
 };
+
+export type Group = {
+  id: string;
+  name: string;
+  created_by: string;
+  invite_code: string;
+  created_at: string;
+};
+
+export type GroupMember = {
+  user_id: string;
+  group_id: string;
+  joined_at: string;
+  profile?: UserProfile; // joined via profiles tabel
+};
+
+export type GroupWithMembers = Group & {
+  members: (GroupMember & { profile: UserProfile })[];
+};
